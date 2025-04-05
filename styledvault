@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leo's Vault</title>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Orbitron:wght@700&family=Unica+One&family=Antonio:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #0a0a0a;
+      color: #eaeaea;
+      font-family: 'IBM Plex Mono', monospace;
+      line-height: 1.6;
+    }
+    header {
+      background: #000;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 4rem;
+      color: #00ffff;
+      margin: 0;
+      text-shadow: 0 0 10px #00ffff;
+    }
+    header p {
+      font-family: 'Unica One', cursive;
+      font-size: 1.2rem;
+      color: #eaeaea;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2rem;
+      color: #00ffff;
+      border-bottom: 1px solid #333;
+      padding-bottom: 5px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 24px;
+      margin: 10px 5px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      font-family: 'Antonio', sans-serif;
+      text-transform: uppercase;
+    }
+    .blue-glow {
+      background: transparent;
+      color: #00ffff;
+      border: 2px solid #00ffff;
+      text-shadow: 0 0 5px #00ffff;
+    }
+    .gold-glow {
+      background: #ffd700;
+      color: #000;
+      box-shadow: 0 0 10px #ffd700;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #444;
+    }
+    .prompt-card {
+      background: #1a1a1a;
+      border-left: 4px solid #00ffff;
+      padding: 20px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SHAPESHIFTERS LAB</h1>
+    <p>7 Trials. 1 Vault. No hand-holding.</p>
+  </header>
+  <section>
+    <h2>WELCOME BRIEFING</h2>
+    <p>Only those with caffeine and chaos survive the trials. This isn’t a course. It’s a classified drop zone for people who use AI like a weapon. Everything here is sharp, tested, and absolutely not meant for the soft-handed. Leo doesn’t teach. He arms.</p>
+  </section>
+  <section>
+    <h2>PROMPT ARSENAL</h2>
+    <div class="prompt-card">
+      <strong>🧠 Content Killshots</strong>
+      <p><a href="#" class="button blue-glow">Unlock Trial</a></p>
+    </div>
+    <div class="prompt-card">
+      <strong>🔍 Research Ops</strong>
+      <p><a href="#" class="button blue-glow">Unlock Trial</a></p>
+    </div>
+    <div class="prompt-card">
+      <strong>🎭 Voice Hijacks</strong>
+      <p><a href="#" class="button blue-glow">Unlock Trial</a></p>
+    </div>
+    <div class="prompt-card">
+      <strong>📉 Market Intel Extractors</strong>
+      <p><a href="#" class="button blue-glow">Unlock Trial</a></p>
+    </div>
+    <div class="prompt-card">
+      <strong>☠️ Leo’s Playground</strong>
+      <p><a href="#" class="button blue-glow">Unlock Trial</a></p>
+    </div>
+  </section>
+  <section>
+    <h2>TACTICAL DOWNLOADS</h2>
+    <p>Use these when you’re stuck, overwhelmed, or just sick of sounding like everyone else.</p>
+    <a href="#" class="button gold-glow">Crack the Vault</a>
+    <a href="#" class="button gold-glow">Crack the Vault</a>
+    <a href="#" class="button gold-glow">Crack the Vault</a>
+  </section>
+  <section>
+    <h2>WAR ROOM MISSIONS</h2>
+    <p>You learn by doing. Each mission is designed to force execution under pressure. No filler. Just fire.</p>
+    <a href="#" class="button blue-glow">Unlock Trial</a>
+    <a href="#" class="button blue-glow">Unlock Trial</a>
+    <a href="#" class="button blue-glow">Unlock Trial</a>
+  </section>
+  <section>
+    <h2>TRANSMISSIONS</h2>
+    <p>Voice drops. Prompt roasts. Wild walkthroughs. Leo doesn’t schedule these. He unleashes them. Stay sharp.</p>
+    <a href="#" class="button gold-glow">Crack the Vault</a>
+  </section>
+  <footer>
+    <p>This vault self-destructs every time someone posts a weak-ass prompt. Don’t be the reason.</p>
+  </footer>
+</body>
+</html>
